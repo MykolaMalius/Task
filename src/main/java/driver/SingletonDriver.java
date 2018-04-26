@@ -56,7 +56,7 @@ public class SingletonDriver {
                 "src/main/resources/");
 
         if (osName.startsWith("win")) {
-            chromeBinaryPath.append("drivers/chrome-win/chromedriver.exe");
+            chromeBinaryPath.append("drivers/chromedriver.exe");
         } else if (osName.startsWith("lin")) {
             chromeBinaryPath.append("drivers/chrome-lin/chromedriver");
         } else if (osName.startsWith("mac")) {
