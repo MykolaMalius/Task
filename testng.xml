@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ESA" verbose="5" parallel="tests" thread-count="4">
+    <listeners>
+    <listener class-name="allure.TestExecutionListener"/>
+    </listeners>
+    <test name="RecipesTest">
+        <classes>
+            <class name="AddRecipeTest"/>
+            <class name="EditTest"/>
+            <class name="HomeTest"/>
+        </classes>
+    </test>
+
+</suite>
